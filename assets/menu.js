@@ -1,0 +1,1 @@
+document.querySelector('.menu-toggle')?.addEventListener('click',e=>{const b=e.currentTarget,n=document.getElementById(b.getAttribute('aria-controls'));const open=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!open));n.classList.toggle('open',!open)});
