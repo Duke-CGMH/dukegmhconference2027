@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="{{ site.data.cms.site_name }}">
+  <title>{{ page.title }} | {{ site.data.cms.site_name }}</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="topline"></div>
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        {% if site.data.cms.site.brand_image != '' %}<img src="{{ site.data.cms.site.brand_image }}" alt="">{% else %}<img src="assets/mark.svg" alt="">{% endif %}
+        <span class="brand-text">{{ site.data.cms.site.site_name }}<small>{{ site.data.cms.site.organization_name }}</small></span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="nav" id="site-nav">
+        <a href="index.html" {% if page.page_key == 'home' %}aria-current="page"{% endif %}>Home</a>
+        <a href="registration-abstract-submission.html" {% if page.page_key == 'abstract' %}aria-current="page"{% endif %}>Abstract Submission</a>
+        <a href="sponsors.html" {% if page.page_key == 'sponsors' %}aria-current="page"{% endif %}>Sponsors</a>
+        <a href="connect.html" {% if page.page_key == 'connect' %}aria-current="page"{% endif %}>Connect</a>
+        <a href="past-conferences.html" {% if page.page_key == 'past' %}aria-current="page"{% endif %}>Past Conferences</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    {% case page.page_key %}
+      {% when 'home' %}{% include page-home.html %}
+      {% when 'abstract' %}{% include page-abstract.html %}
+      {% when 'sponsors' %}{% include page-sponsors.html %}
+      {% when 'connect' %}{% include page-connect.html %}
+      {% when 'past' %}{% include page-past.html %}
+    {% endcase %}
+  </main>
+  <footer class="footer">
+    <div class="footer-inner">
+      <div><div class="footer-brand">{{ site.data.cms.site.site_name }}</div><small>{{ site.data.cms.site.organization_name }}</small></div>
+      <nav class="footer-nav"><a href="index.html">Home</a><a href="registration-abstract-submission.html">Abstract Submission</a><a href="sponsors.html">Sponsors</a><a href="connect.html">Connect</a><a href="past-conferences.html">Past Conferences</a><a href="mailto:{{ site.data.cms.site.contact_email }}">Contact</a></nav>
+      <div class="footer-note">© 2027 {{ site.data.cms.site.organization_name }} · Conference information is subject to update.</div>
+    </div>
+  </footer>
+  <script src="assets/menu.js"></script>
+</body>
+</html>

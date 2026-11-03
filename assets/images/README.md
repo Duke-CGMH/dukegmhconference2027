@@ -1,9 +1,12 @@
-# Images for the site
+# Image uploads
 
-Place the corresponding image in this folder and replace each HTML `image-placeholder` block with an `<img>` using the suggested relative path:
+For normal updates, sign in to Pages CMS, open the appropriate page, and upload/select an image in its image field. CMS image uploads are saved in this folder and the page will use the selected image automatically.
 
-- `cgmh-center-logo.png` — Duke Center for Global Mental Health mark used on the Connect, Sponsors, and Past Conferences pages.
-- `gemini-2025-conference.jpg` — group photo captioned “Members of the GEMINI Research Center at the 2025 Global Mental Health Conference” on the home page.
-- `2025-conference-one-pager.png` — 2025 Duke Global Mental Health Conference one-page graphic on Past Conferences.
+Suggested original images:
 
-For example: `<img src="assets/images/gemini-2025-conference.jpg" alt="Members of the GEMINI Research Center at the 2025 Global Mental Health Conference">`.
+- Home page — group photo captioned “Members of the GEMINI Research Center at the 2025 Global Mental Health Conference”.
+- Site settings — Duke Center for Global Mental Health mark for the header.
+- Abstract Submission, Sponsors, Connect, and Past Conferences — optional CGMH image.
+- Past Conferences — 2025 Duke Global Mental Health Conference one-pager.
+
+If adding files manually, use the Pages CMS image fields to select them after committing them into the repository. Image fields keep the file path and alt text with the page content.

@@ -1,0 +1,248 @@
+media:
+  - name: images
+    label: Site images
+    input: assets/images
+    output: assets/images
+    categories: [image]
+    extensions: [png, jpg, jpeg, webp, svg]
+    rename: safe
+
+content:
+  - name: site_settings
+    label: Site settings
+    type: file
+    path: _data/cms/site.json
+    format: json
+    fields:
+      - name: site_name
+        label: Site name
+        type: string
+      - name: organization_name
+        label: Organization name
+        type: string
+      - name: contact_email
+        label: Contact email
+        type: string
+      - name: brand_image
+        label: Header logo
+        type: image
+        options:
+          media: images
+          path: assets/images
+          extensions: [png, jpg, jpeg, webp, svg]
+
+  - name: homepage
+    label: Home page
+    type: file
+    path: _data/cms/home.json
+    format: json
+    fields:
+      - name: eyebrow
+        label: Hero eyebrow
+        type: string
+      - name: hero_title
+        label: Main headline
+        type: string
+      - name: hero_subtitle
+        label: Theme subtitle
+        type: string
+      - name: hero_description
+        label: Hero description
+        type: text
+      - name: register_label
+        label: Register button text
+        type: string
+      - name: register_url
+        label: Registration link
+        type: string
+      - name: event_date
+        label: Conference date
+        type: string
+      - name: event_location
+        label: Location
+        type: string
+      - name: event_format
+        label: Access / format
+        type: string
+      - name: intro_title
+        label: Introduction heading
+        type: string
+      - name: intro_body
+        label: Introduction text
+        type: rich-text
+        options:
+          format: html
+          switcher: false
+          media: false
+      - name: aside_title
+        label: Save the date heading
+        type: string
+      - name: aside_body
+        label: Save the date details
+        type: rich-text
+        options:
+          format: html
+          switcher: false
+          media: false
+      - name: group_photo
+        label: Conference group photo
+        type: image
+        options:
+          media: images
+          path: assets/images
+      - name: group_photo_alt
+        label: Group photo description
+        type: string
+      - name: group_photo_caption
+        label: Group photo caption
+        type: string
+      - name: features
+        label: Feature cards
+        type: object
+        list:
+          min: 0
+          max: 3
+        fields:
+          - name: number
+            label: Card label
+            type: string
+          - name: title
+            label: Heading
+            type: string
+          - name: body
+            label: Description
+            type: text
+
+  - name: abstract_page
+    label: Abstract Submission page
+    type: file
+    path: _data/cms/abstract.json
+    format: json
+    fields:
+      - name: eyebrow
+        label: Small heading
+        type: string
+      - name: title
+        label: Page title
+        type: string
+      - name: cgmh_image
+        label: CGMH image
+        type: image
+        options:
+          media: images
+          path: assets/images
+      - name: cgmh_image_alt
+        label: Image description
+        type: string
+      - name: body
+        label: Page content
+        type: rich-text
+        options:
+          format: html
+          switcher: false
+          media: false
+      - name: submit_label
+        label: Button text
+        type: string
+      - name: submit_url
+        label: Submission form link
+        type: string
+
+  - name: sponsors_page
+    label: Sponsors page
+    type: file
+    path: _data/cms/sponsors.json
+    format: json
+    fields:
+      - name: eyebrow
+        label: Small heading
+        type: string
+      - name: title
+        label: Page title
+        type: string
+      - name: cgmh_image
+        label: CGMH image
+        type: image
+        options:
+          media: images
+          path: assets/images
+      - name: cgmh_image_alt
+        label: Image description
+        type: string
+      - name: body
+        label: Sponsor names and page content
+        type: rich-text
+        options:
+          format: html
+          switcher: false
+          media: false
+
+  - name: connect_page
+    label: Connect page
+    type: file
+    path: _data/cms/connect.json
+    format: json
+    fields:
+      - name: eyebrow
+        label: Small heading
+        type: string
+      - name: title
+        label: Page title
+        type: string
+      - name: cgmh_image
+        label: CGMH image
+        type: image
+        options:
+          media: images
+          path: assets/images
+      - name: cgmh_image_alt
+        label: Image description
+        type: string
+      - name: body
+        label: Contact details and links
+        type: rich-text
+        options:
+          format: html
+          switcher: false
+          media: false
+
+  - name: past_conferences_page
+    label: Past Conferences page
+    type: file
+    path: _data/cms/past_conferences.json
+    format: json
+    fields:
+      - name: eyebrow
+        label: Small heading
+        type: string
+      - name: title
+        label: Page title
+        type: string
+      - name: cgmh_image
+        label: CGMH image
+        type: image
+        options:
+          media: images
+          path: assets/images
+      - name: cgmh_image_alt
+        label: Image description
+        type: string
+      - name: body
+        label: Conference details
+        type: rich-text
+        options:
+          format: html
+          switcher: false
+          media: false
+      - name: one_pager
+        label: 2025 conference one-pager
+        type: image
+        options:
+          media: images
+          path: assets/images
+      - name: one_pager_alt
+        label: One-pager description
+        type: string
+      - name: one_pager_caption
+        label: One-pager caption
+        type: string

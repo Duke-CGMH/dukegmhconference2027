@@ -1,0 +1,3 @@
+{% assign p = site.data.cms.connect %}
+<section class="page-title"><div class="inner"><div class="eyebrow">{{ p.eyebrow }}</div><h1>{{ p.title }}</h1></div></section>
+<article class="article"><div class="article-wrap">{% if p.cgmh_image != '' %}<figure class="page-image"><img src="{{ p.cgmh_image }}" alt="{{ p.cgmh_image_alt }}"></figure>{% else %}<div class="image-placeholder"><strong>{{ p.cgmh_image_alt }}</strong><span>Upload the CGMH logo using this page’s image field</span><code>assets/images/</code></div>{% endif %}{{ p.body }}</div></article>

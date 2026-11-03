@@ -1,0 +1,4 @@
+# GitHub Pages builds this Jekyll site from the repository root.
+# All public paths remain relative so it works with a custom domain or repo subpath.
+markdown: kramdown
+permalink: pretty
