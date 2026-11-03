@@ -11,14 +11,25 @@
   "intro_title": "Global mental health in partnership",
   "intro_body": "<p>On Friday, February 19, the Duke Center for Global Mental Health (CGMH) will host its 3rd Annual Global Mental Health Conference at Penn Pavilion, bringing together faculty, trainees, students, and professionals committed to addressing mental health disparities locally and globally.</p><p>This year’s theme, “Shared Learning, Creative Solutions: Global Mental Health in Partnership,” emphasizes the importance of collaboration, reciprocal learning, and interdisciplinary partnerships in advancing innovative approaches to mental health research and practice. The conference will provide a platform for exchanging knowledge, showcasing innovative solutions, and strengthening connections among those working to improve mental health outcomes worldwide.</p><p>Throughout the day, CGMH will highlight its collaborative network, bringing together participants from across Duke University’s schools and departments, as well as partner universities and community organizations throughout the Triangle and beyond. The program will feature presentations from distinguished speakers, alongside poster sessions and symposia exploring a diverse range of topics in global mental health.</p><p>The conference is free and open to all and will be offered in a hybrid format, allowing participants to join either in person or virtually. We invite you to join us in advancing the CGMH’s mission to reduce mental health disparities locally and globally through interdisciplinary research, education, practice, and policy.</p>",
   "aside_title": "February 19, 2027",
-  "aside_body": "<p>Join us at Penn Pavilion on Duke University’s West Campus—or attend virtually.</p><p><a href=\"registration-abstract-submission.html\">Explore submission guidelines →</a></p><p class=\"note\">The full program and speaker details will be shared as planning continues.</p>",
-  "group_photo": "",
+  "aside_body": "<p>Join us at Penn Pavilion on Duke University’s West Campus—or attend virtually.</p><p><a href=\"registration-abstract-submission.html\">Explore submission guidelines →</a></p><p>The full program and speaker details will be shared as planning continues.</p>",
+  "group_photo": "assets/images/gemini-2025-conference.jpg",
   "group_photo_alt": "Members of the GEMINI Research Center at the 2025 Global Mental Health Conference",
   "group_photo_caption": "Members of the GEMINI Research Center at the 2025 Global Mental Health Conference",
   "features": [
-    {"number":"01 / CONNECT","title":"Build partnerships","body":"Meet people from Duke, partner universities, community organizations, and global health networks."},
-    {"number":"02 / SHARE","title":"Exchange knowledge","body":"Explore research, practice, education, and policy perspectives across global mental health."},
-    {"number":"03 / CREATE","title":"Find shared solutions","body":"Bring collaborative ideas forward through posters, symposia, and oral presentations."}
+    {
+      "number": "01 / CONNECT",
+      "title": "Build partnerships",
+      "body": "Meet people from Duke, partner universities, community organizations, and global health networks."
+    },
+    {
+      "number": "02 / SHARE",
+      "title": "Exchange knowledge",
+      "body": "Explore research, practice, education, and policy perspectives across global mental health."
+    },
+    {
+      "number": "03 / CREATE",
+      "title": "Find shared solutions",
+      "body": "Bring collaborative ideas forward through posters, symposia, and oral presentations."
+    }
   ]
 }
-
