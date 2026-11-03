@@ -25,8 +25,9 @@ The `CNAME` file in this folder sets the configured custom domain to `www.dukegm
 
 In Pages CMS, open **Home page**:
 
-- Upload either a **Hero photo** or **Hero video**. If both are filled, the video is shown. Clear the unused field when switching. Videos play muted, loop, and show controls; MP4 and WebM are accepted.
-- Optionally upload a **Video poster image** to show while the video loads.
+- Add up to 12 photos under **Homepage slideshow**. Photos rotate automatically every five seconds; visitors can select a slide using the dots. Provide a short alt description for accessibility and an optional caption.
+- Upload an MP4 or WebM under **Conference video**. It appears in a player beneath the slideshow in the right side of the home page hero. It is not autoplayed so visitors can choose when to play it.
+- Optionally upload a **Video poster image** to show before playback.
 - Add up to eight rows under **Flyer attachments**. Give each a title, optional short description, and PDF. Each appears as a download link in the homepage flyer section.
 
 Keep individual video files reasonably small so the homepage loads quickly.

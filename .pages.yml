@@ -60,20 +60,30 @@ content:
       - name: hero_subtitle
         label: Theme subtitle
         type: string
+      - name: slides
+        label: Homepage slideshow
+        type: object
+        list:
+          min: 0
+          max: 12
+        fields:
+          - name: image
+            label: Conference photo
+            type: image
+            options:
+              media: images
+              path: assets/images
+          - name: alt
+            label: Photo description
+            type: string
+          - name: caption
+            label: Photo caption
+            type: string
       - name: hero_description
         label: Hero description
         type: text
-      - name: hero_image
-        label: Hero photo
-        type: image
-        options:
-          media: images
-          path: assets/images
-      - name: hero_image_alt
-        label: Hero photo/video description
-        type: string
       - name: hero_video
-        label: Hero video (MP4 or WebM)
+        label: Conference video (MP4 or WebM)
         type: file
         options:
           media: videos
