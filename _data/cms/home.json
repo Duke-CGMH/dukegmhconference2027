@@ -33,6 +33,7 @@
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   ],
   "hero_image": "",
   "hero_image_alt": "Global mental health conference participants",
@@ -42,6 +43,10 @@
   "flyer_intro": "Download and share information about the conference.",
   "flyers": []
 }
+=======
+  ]
+}
+>>>>>>> 85cf4c5f6555c15180b5197acc8e54df154ab6a6
 =======
   ]
 }
