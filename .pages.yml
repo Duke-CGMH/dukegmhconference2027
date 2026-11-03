@@ -6,6 +6,20 @@ media:
     categories: [image]
     extensions: [png, jpg, jpeg, webp, svg]
     rename: safe
+  - name: videos
+    label: Hero videos
+    input: assets/videos
+    output: assets/videos
+    categories: [video]
+    extensions: [mp4, webm]
+    rename: safe
+  - name: flyers
+    label: Flyer attachments
+    input: assets/flyers
+    output: assets/flyers
+    categories: [document]
+    extensions: [pdf]
+    rename: safe
 
 content:
   - name: site_settings
@@ -49,6 +63,28 @@ content:
       - name: hero_description
         label: Hero description
         type: text
+      - name: hero_image
+        label: Hero photo
+        type: image
+        options:
+          media: images
+          path: assets/images
+      - name: hero_image_alt
+        label: Hero photo/video description
+        type: string
+      - name: hero_video
+        label: Hero video (MP4 or WebM)
+        type: file
+        options:
+          media: videos
+          path: assets/videos
+          extensions: [mp4, webm]
+      - name: hero_video_poster
+        label: Video poster image (optional)
+        type: image
+        options:
+          media: images
+          path: assets/images
       - name: register_label
         label: Register button text
         type: string
@@ -84,6 +120,32 @@ content:
           format: html
           switcher: false
           media: false
+      - name: flyer_heading
+        label: Flyer section heading
+        type: string
+      - name: flyer_intro
+        label: Flyer section introduction
+        type: text
+      - name: flyers
+        label: Flyer attachments
+        type: object
+        list:
+          min: 0
+          max: 8
+        fields:
+          - name: title
+            label: Link title
+            type: string
+          - name: description
+            label: Short description
+            type: text
+          - name: file
+            label: PDF flyer
+            type: file
+            options:
+              media: flyers
+              path: assets/flyers
+              extensions: [pdf]
       - name: group_photo
         label: Conference group photo
         type: image
@@ -246,3 +308,6 @@ content:
       - name: one_pager_caption
         label: One-pager caption
         type: string
+
+
+

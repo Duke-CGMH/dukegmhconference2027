@@ -20,3 +20,13 @@ GitHub Pages uses Jekyll to render the templates and JSON content into the stati
 
 The `CNAME` file in this folder sets the configured custom domain to `www.dukegmhconference2027.com`. The DNS provider still needs the matching `www` CNAME record pointing to the GitHub account’s `USERNAME.github.io` domain.
 
+
+## Homepage media and flyers
+
+In Pages CMS, open **Home page**:
+
+- Upload either a **Hero photo** or **Hero video**. If both are filled, the video is shown. Clear the unused field when switching. Videos play muted, loop, and show controls; MP4 and WebM are accepted.
+- Optionally upload a **Video poster image** to show while the video loads.
+- Add up to eight rows under **Flyer attachments**. Give each a title, optional short description, and PDF. Each appears as a download link in the homepage flyer section.
+
+Keep individual video files reasonably small so the homepage loads quickly.
