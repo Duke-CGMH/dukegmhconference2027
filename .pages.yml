@@ -65,7 +65,7 @@ content:
         label: Main headline
         type: string
       - name: title_background
-        label: Homepage hero background image (optional)
+        label: Photo behind blue Home hero area
         type: image
         options:
           media: images
@@ -211,7 +211,7 @@ content:
         label: Page title
         type: string
       - name: title_background
-        label: Page title background image (optional)
+        label: Photo behind blue page title band
         type: image
         options:
           media: images
@@ -252,7 +252,7 @@ content:
         label: Page title
         type: string
       - name: title_background
-        label: Page title background image (optional)
+        label: Photo behind blue page title band
         type: image
         options:
           media: images
@@ -326,7 +326,7 @@ content:
         label: Page title
         type: string
       - name: title_background
-        label: Page title background image (optional)
+        label: Photo behind blue page title band
         type: image
         options:
           media: images
@@ -370,7 +370,7 @@ content:
         label: Page title
         type: string
       - name: title_background
-        label: Page title background image (optional)
+        label: Photo behind blue page title band
         type: image
         options:
           media: images
