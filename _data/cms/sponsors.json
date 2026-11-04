@@ -1,24 +1,17 @@
 {
   "eyebrow": "With gratitude",
   "title": "Sponsors",
-  "cgmh_image": "",
+  "title_background": "assets/images/alcoholsymposium2025-1536x1024-2.jpg",
   "cgmh_image_alt": "Duke Center for Global Mental Health",
   "body": "<h2>Sponsorship and Donation Opportunities</h2><p>Become a personal or organizational sponsor of the Duke Center for Global Mental Health Conference. Your contribution supports the mission of the CGMH to strengthen mental health for all people worldwide, and makes it possible to bring together researchers, practitioners, students, trainees, and community organizations from across the globe.</p><p>In return, sponsors gain meaningful visibility before a diverse, engaged audience, recognition through our program, website, and social media, and the chance to connect directly with the people driving global mental health forward. Whatever your level of giving, your sponsorship is a lasting investment in the ability of the CGMH to work towards a more inclusive and equitable future for mental health care.</p><p>For sponsorship and donation inquiries, contact the Duke Center for Global Mental Health at <a href=\"mailto:dukegmh@duke.edu\">dukegmh@duke.edu</a>.</p>",
-  "title_background": "",
   "sponsors": [
     {
-      "website": "",
-      "logo": "",
       "name": "Duke PlanetLab"
     },
     {
-      "website": "",
-      "logo": "",
       "name": "Duke Department of Psychology & Neuroscience"
     }
   ],
   "duke_community_description": "Support the conference as an individual or community partner and help strengthen mental health for all people worldwide.",
-  "duke_community_pdf": "",
-  "corporate_description": "Partner with the conference and connect with researchers, practitioners, students, trainees, and community organizations across the globe.",
-  "corporate_pdf": ""
+  "corporate_description": "Partner with the conference and connect with researchers, practitioners, students, trainees, and community organizations across the globe."
 }
