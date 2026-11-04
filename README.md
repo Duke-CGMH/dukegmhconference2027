@@ -31,3 +31,10 @@ In Pages CMS, open **Home page**:
 - Add up to eight rows under **Flyer attachments**. Give each a title, optional short description, and PDF. Each appears as a download link in the homepage flyer section.
 
 Keep individual video files reasonably small so the homepage loads quickly.
+
+## Page backgrounds, sponsors, and Connect photos
+
+- **Page title backgrounds:** Home, Abstract Submission, Sponsors, Connect, and Past Conferences each have an optional title background image field. Upload/select a picture in the page editor; the site adds a dark overlay so white title text remains readable.
+- **Sponsors:** Add a row under **Sponsors** for each organization. Each row supports a name, optional logo, and optional website URL. Add the Duke & community PDF and corporate PDF in their matching fields; those documents are stored in `assets/sponsor-docs/`.
+- **Connect photos:** The first photo sits to the right of the contact text on desktop. The second photo appears below the text and first photo. On small screens, the content stacks vertically.
+- The top navigation uses separate equal-height boxes so each page label aligns consistently.

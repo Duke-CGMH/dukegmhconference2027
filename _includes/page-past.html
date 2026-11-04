@@ -1,4 +1,4 @@
 {% assign p = site.data.cms.past_conferences %}
-<section class="page-title"><div class="inner"><div class="eyebrow">{{ p.eyebrow }}</div><h1>{{ p.title }}</h1></div></section>
+<section class="page-title"{% if p.title_background != '' %} style="--title-image:url('{{ p.title_background }}')"{% endif %}><div class="inner"><div class="eyebrow">{{ p.eyebrow }}</div><h1>{{ p.title }}</h1></div></section>
 <article class="article"><div class="article-wrap">{{ p.body }}<figure class="page-image">{% if p.cgmh_image != '' %}<img src="{{ p.cgmh_image }}" alt="{{ p.cgmh_image_alt }}">{% else %}<div class="image-placeholder"><strong>{{ p.cgmh_image_alt }}</strong><span>Upload the CGMH logo using this page’s image field</span><code>assets/images/</code></div>{% endif %}</figure><figure class="page-image">{% if p.one_pager != '' %}<img src="{{ p.one_pager }}" alt="{{ p.one_pager_alt }}">{% else %}<div class="image-placeholder"><strong>{{ p.one_pager_alt }}</strong><span>Upload the conference one-page graphic using the Past Conferences editor</span><code>assets/images/</code></div>{% endif %}<figcaption>{{ p.one_pager_caption }}</figcaption></figure></div></article>
 

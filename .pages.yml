@@ -20,6 +20,13 @@ media:
     categories: [document]
     extensions: [pdf]
     rename: safe
+  - name: sponsor_documents
+    label: Sponsorship PDFs
+    input: assets/sponsor-docs
+    output: assets/sponsor-docs
+    categories: [document]
+    extensions: [pdf]
+    rename: safe
 
 content:
   - name: site_settings
@@ -57,6 +64,12 @@ content:
       - name: hero_title
         label: Main headline
         type: string
+      - name: title_background
+        label: Homepage hero background image (optional)
+        type: image
+        options:
+          media: images
+          path: assets/images
       - name: hero_subtitle
         label: Theme subtitle
         type: string
@@ -197,6 +210,12 @@ content:
       - name: title
         label: Page title
         type: string
+      - name: title_background
+        label: Page title background image (optional)
+        type: image
+        options:
+          media: images
+          path: assets/images
       - name: cgmh_image
         label: CGMH image
         type: image
@@ -232,6 +251,12 @@ content:
       - name: title
         label: Page title
         type: string
+      - name: title_background
+        label: Page title background image (optional)
+        type: image
+        options:
+          media: images
+          path: assets/images
       - name: cgmh_image
         label: CGMH image
         type: image
@@ -242,12 +267,51 @@ content:
         label: Image description
         type: string
       - name: body
-        label: Sponsor names and page content
+        label: Sponsorship introduction and page content
         type: rich-text
         options:
           format: html
           switcher: false
           media: false
+      - name: sponsors
+        label: Sponsors
+        type: object
+        list:
+          min: 0
+          max: 40
+        fields:
+          - name: name
+            label: Sponsor name
+            type: string
+          - name: logo
+            label: Sponsor logo (optional)
+            type: image
+            options:
+              media: images
+              path: assets/images
+          - name: website
+            label: Sponsor website (optional)
+            type: string
+      - name: duke_community_description
+        label: Duke and community sponsorship description
+        type: text
+      - name: duke_community_pdf
+        label: Duke and community sponsorship PDF
+        type: file
+        options:
+          media: sponsor_documents
+          path: assets/sponsor-docs
+          extensions: [pdf]
+      - name: corporate_description
+        label: Corporate sponsorship description
+        type: text
+      - name: corporate_pdf
+        label: Corporate sponsorship PDF
+        type: file
+        options:
+          media: sponsor_documents
+          path: assets/sponsor-docs
+          extensions: [pdf]
 
   - name: connect_page
     label: Connect page
@@ -261,6 +325,12 @@ content:
       - name: title
         label: Page title
         type: string
+      - name: title_background
+        label: Page title background image (optional)
+        type: image
+        options:
+          media: images
+          path: assets/images
       - name: cgmh_image
         label: CGMH image
         type: image
@@ -269,6 +339,15 @@ content:
           path: assets/images
       - name: cgmh_image_alt
         label: Image description
+        type: string
+      - name: secondary_image
+        label: Second page photo
+        type: image
+        options:
+          media: images
+          path: assets/images
+      - name: secondary_image_alt
+        label: Second photo description
         type: string
       - name: body
         label: Contact details and links
@@ -290,6 +369,12 @@ content:
       - name: title
         label: Page title
         type: string
+      - name: title_background
+        label: Page title background image (optional)
+        type: image
+        options:
+          media: images
+          path: assets/images
       - name: cgmh_image
         label: CGMH image
         type: image

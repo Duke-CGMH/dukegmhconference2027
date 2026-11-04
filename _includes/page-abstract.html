@@ -1,3 +1,3 @@
 {% assign p = site.data.cms.abstract %}
-<section class="page-title"><div class="inner"><div class="eyebrow">{{ p.eyebrow }}</div><h1>{{ p.title }}</h1></div></section>
+<section class="page-title"{% if p.title_background != '' %} style="--title-image:url('{{ p.title_background }}')"{% endif %}><div class="inner"><div class="eyebrow">{{ p.eyebrow }}</div><h1>{{ p.title }}</h1></div></section>
 <article class="article"><div class="article-wrap">{{ p.body }}<p><a class="button" href="{{ p.submit_url }}">{{ p.submit_label }}</a></p><figure class="page-image">{% if p.cgmh_image != '' %}<img src="{{ p.cgmh_image }}" alt="{{ p.cgmh_image_alt }}">{% else %}<div class="image-placeholder"><strong>{{ p.cgmh_image_alt }}</strong><span>Upload the CGMH logo using this page’s image field</span><code>assets/images/</code></div>{% endif %}</figure></div></article>
