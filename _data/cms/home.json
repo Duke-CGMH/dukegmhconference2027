@@ -68,5 +68,22 @@
       "title": "Find shared solutions",
       "body": "Bring collaborative ideas forward through posters, symposia, and oral presentations."
     }
+<<<<<<< Updated upstream
   ]
 }
+=======
+  ],
+  "hero_video": "",
+  "hero_video_poster": "",
+  "slides": [],
+  "flyer_heading": "Conference Flyers",
+  "flyer_intro": "Download and share information about the conference.",
+  "flyers": [],
+  "title_background": "",
+  "mental_health_video": "",
+  "mental_health_video_poster": "",
+  "mental_health_video_caption": "Mental health is part of overall health. Awareness, support, and access to care matter.",
+  "hero_youtube_url": "",
+  "mental_health_youtube_url": ""
+}
+>>>>>>> Stashed changes

@@ -44,6 +44,18 @@ content:
       - name: contact_email
         label: Contact email
         type: string
+      - name: donation_heading
+        label: Donation callout heading
+        type: string
+      - name: donation_description
+        label: Donation callout description
+        type: text
+      - name: donation_label
+        label: Donation button text
+        type: string
+      - name: donation_url
+        label: Donation page link
+        type: string
       - name: brand_image
         label: Header logo
         type: image
@@ -95,6 +107,9 @@ content:
       - name: hero_description
         label: Hero description
         type: text
+      - name: hero_youtube_url
+        label: YouTube link for conference video (optional)
+        type: string
       - name: hero_video
         label: Conference video (MP4 or WebM)
         type: file
@@ -150,6 +165,9 @@ content:
           media: videos
           path: assets/videos
           extensions: [mp4, webm]
+      - name: mental_health_youtube_url
+        label: YouTube link for mental health video (optional)
+        type: string
       - name: mental_health_video_poster
         label: Vertical video poster image (optional)
         type: image
@@ -232,15 +250,6 @@ content:
         options:
           media: images
           path: assets/images
-      - name: cgmh_image
-        label: CGMH image
-        type: image
-        options:
-          media: images
-          path: assets/images
-      - name: cgmh_image_alt
-        label: Image description
-        type: string
       - name: body
         label: Page content
         type: rich-text
@@ -273,15 +282,6 @@ content:
         options:
           media: images
           path: assets/images
-      - name: cgmh_image
-        label: CGMH image
-        type: image
-        options:
-          media: images
-          path: assets/images
-      - name: cgmh_image_alt
-        label: Image description
-        type: string
       - name: body
         label: Sponsorship introduction and page content
         type: rich-text

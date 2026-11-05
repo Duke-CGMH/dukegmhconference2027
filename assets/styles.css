@@ -42,3 +42,25 @@
 .mental-health-video figcaption{max-width:250px;margin:.7rem auto 0;color:var(--muted);font: .9rem/1.5 Arial,sans-serif;text-align:left}
 .mental-health-video-placeholder{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.75rem;width:min(100%,250px);aspect-ratio:9/16;max-height:420px;margin:0 auto;padding:1rem;border:2px dashed #9aafc2;border-radius:4px;background:#e5edf4;color:#51677e;font: .9rem/1.5 Arial,sans-serif}
 .mental-health-video-placeholder .play-mark{color:var(--blue);border-color:#00539b70}
+.youtube-frame iframe{display:block;width:100%;height:100%;border:0;border-radius:3px}
+.hero-video-card .youtube-frame{width:100%;max-height:220px;aspect-ratio:16/9;background:#071b39}
+.mental-health-video .youtube-frame{width:min(100%,250px);aspect-ratio:9/16;max-height:420px;border-radius:4px;background:#071b39;overflow:hidden}
+.page-title .inner{padding-top:5rem;padding-bottom:5.2rem}
+.past-copy{max-width:850px}
+.past-media{width:100%;margin-top:2rem}
+.past-logo{max-width:850px;margin:0 0 2rem}
+.past-one-pager{width:100%;max-width:none;margin:0}
+.past-one-pager img{width:100%;max-width:100%;max-height:none;height:auto;object-fit:contain}
+.past-one-pager .image-placeholder{width:100%;min-height:350px}
+.donation-cta{padding:3.5rem 1.5rem;background:#eef3f8;border-top:1px solid var(--line)}
+.donation-cta-inner{max-width:850px;margin:auto;text-align:left}
+.donation-cta h2{margin:.4rem 0 .7rem;color:var(--duke);font-size:2rem}
+.donation-cta p{max-width:720px;margin:.5rem 0 1.3rem;color:var(--muted)}
+.donation-button{min-width:220px;text-align:center;font-size:1.2rem}
+.donation-button-placeholder{opacity:.72;cursor:default}
+.donation-cta small{display:block;margin-top:.65rem;color:var(--muted);font: .82rem/1.5 Arial,sans-serif}
+.donation-cta-home .donation-cta-inner{text-align:center}
+.donation-cta-home .donation-cta-inner p{margin-inline:auto}
+.donation-cta-sponsor .donation-cta-inner{text-align:center}
+.donation-cta-sponsor .donation-cta-inner p{margin-inline:auto}
+@media(max-width:760px){.page-title .inner{padding:3.6rem 1.25rem 3.8rem}.donation-cta{padding:2.7rem 1.25rem}.donation-cta h2{font-size:1.7rem}.past-one-pager .image-placeholder{min-height:220px}}

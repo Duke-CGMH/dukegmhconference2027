@@ -26,9 +26,9 @@ The `CNAME` file in this folder sets the configured custom domain to `www.dukegm
 In Pages CMS, open **Home page**:
 
 - Add up to 12 photos under **Homepage slideshow**. Photos rotate automatically every five seconds; visitors can select a slide using the dots. Provide a short alt description for accessibility and an optional caption.
-- Upload an MP4 or WebM under **Conference video**. It appears in a player beneath the slideshow in the right side of the home page hero. It is not autoplayed so visitors can choose when to play it.
+- Paste a YouTube share link under **YouTube link for conference video** to show it in a player beneath the slideshow on the right side of the home page hero. Visitors can play it in place. A local MP4/WebM upload under **Conference video** is also supported.
 - Optionally upload a **Video poster image** to show before playback.
-- In the **Save the date** fields, upload a vertical MP4/WebM under **Vertical mental health video** and add its text under **Caption beneath vertical video**. It appears below the Save the Date details in the home page sidebar.
+- In the **Save the date** fields, paste a YouTube link under **YouTube link for mental health video**, or upload a vertical MP4/WebM under **Vertical mental health video**. Add its text under **Caption beneath vertical video**. It appears below the Save the Date details in the home page sidebar.
 - Add up to eight rows under **Flyer attachments**. Give each a title, optional short description, and PDF. Each appears as a download link in the homepage flyer section.
 
 Keep individual video files reasonably small so the homepage loads quickly.
@@ -39,3 +39,5 @@ Keep individual video files reasonably small so the homepage loads quickly.
 - **Sponsors:** Add a row under **Sponsors** for each organization. Each row supports a name, optional logo, and optional website URL. Add the Duke & community PDF and corporate PDF in their matching fields; those documents are stored in `assets/sponsor-docs/`.
 - **Connect photos:** The first photo sits to the right of the contact text on desktop. The second photo appears below the text and first photo. On small screens, the content stacks vertically.
 - The top navigation uses individual boxes sized to their page labels.
+- **Donation callout:** In **Site settings**, set the donation heading, description, button label, and donation page link. The callout appears on the Sponsors page and centered at the bottom of Home. The button stays a placeholder until a link is entered.
+- The Past Conferences one-pager displays across the page content width. The Abstract Submission and Sponsors pages no longer include their bottom images.
