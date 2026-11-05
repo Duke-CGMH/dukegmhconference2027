@@ -6,11 +6,23 @@
   "sponsors": [
     {
       "name": "Duke PlanetLab",
-      "logo": "assets/images/screenshot-2026-10-29-094739.png"
+      "logo": "assets/images/screenshot-2026-10-29-094739.png",
+      "website": "https://planetlab.org/"
     },
     {
       "name": "Duke Department of Psychology & Neuroscience",
-      "logo": "assets/images/screenshot-2026-10-29-095031.png"
+      "logo": "assets/images/screenshot-2026-10-29-095031.png",
+      "website": "https://psychandneuro.duke.edu/"
+    },
+    {
+      "name": "Center for Policy and Health Inequalities Research (CHPIR)",
+      "logo": "assets/images/screenshot-2026-11-05-160113.png",
+      "website": "https://chpir.org/"
+    },
+    {
+      "name": "Duke University School of Nursing",
+      "logo": "assets/images/screenshot-2026-11-05-160241.png",
+      "website": "https://nursing.duke.edu/"
     }
   ],
   "duke_community_description": "Support the conference as an individual or community partner and help strengthen mental health for all people worldwide.",
