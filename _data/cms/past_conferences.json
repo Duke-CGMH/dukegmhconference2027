@@ -1,9 +1,11 @@
 {
   "eyebrow": "Looking back",
   "title": "Past Conferences",
+  "cgmh_image": "",
   "cgmh_image_alt": "Duke Center for Global Mental Health",
   "body": "<h2>Past Duke GMH Conferences</h2><p>This year marks the 3rd annual Duke Global Mental Health Conferences, with past conferences in the 2024–2025 and 2025–2026 academic years. You can learn more about our last conference, hosted in October 2025, <a href=\"https://sites.duke.edu/dukegmhconf2025/\">on the 2025 conference website</a>.</p>",
-  "one_pager": "assets/images/duke-gmh-conference.png",
+  "one_pager": "",
   "one_pager_alt": "2025 Duke Global Mental Health Conference one-pager",
-  "one_pager_caption": "2025 Duke Global Mental Health Conference one-pager"
+  "one_pager_caption": "2025 Duke Global Mental Health Conference one-pager",
+  "title_background": ""
 }
