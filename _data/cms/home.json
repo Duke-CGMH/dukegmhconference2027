@@ -1,7 +1,26 @@
 {
   "eyebrow": "Duke Center for Global Mental Health",
   "hero_title": "Duke Global Mental Health Conference",
-  "hero_subtitle": "Global Mental Health in Partnership",
+  "title_background": "assets/images/partnerships-across-duke-1.png",
+  "hero_subtitle": "Shared Learning, Creative Solutions: Global Mental Health in Partnership",
+  "slides": [
+    {
+      "image": "assets/images/conferenceregistration2025-3.jpg",
+      "caption": "2025 Duke Global Mental Health Conference"
+    },
+    {
+      "image": "assets/images/posters12025-2.jpg",
+      "caption": "Poster Presentations"
+    },
+    {
+      "image": "assets/images/symposia2025-2.jpg",
+      "caption": "Symposium presentations"
+    },
+    {
+      "image": "assets/images/sikkema2025-1024x681-1.jpg",
+      "caption": "Keynote speakers"
+    }
+  ],
   "hero_description": "Join a community of researchers, practitioners, students, and advocates working together to advance global mental health.",
   "hero_youtube_url": "https://youtube.com/shorts/YgnYXhHsEH8?feature=share",
   "register_label": "Register Now",
@@ -17,6 +36,17 @@
   "mental_health_video_caption": "Mental health is part of overall health. Awareness, support, and access to care matter.",
   "flyer_heading": "Conference Flyers",
   "flyer_intro": "Download and share information about the conference.",
+  "flyers": [
+    {
+      "title": "2027 Conference Flyer (Vertical)",
+      "file": "assets/flyers/2027-duke-gmh-conferenceportrait-2.pdf"
+    },
+    {
+      "title": "2027 Conference Flyer (Horizontal)",
+      "file": "assets/flyers/2027-duke-gmh-conferencelandscape-2.pdf"
+    }
+  ],
+  "group_photo": "assets/images/alcoholsymposium2025-1536x1024-5.jpg",
   "group_photo_alt": "Members of the GEMINI Research Center at the 2025 Global Mental Health Conference",
   "group_photo_caption": "Members of the GEMINI Research Center at the 2025 Global Mental Health Conference",
   "features": [
