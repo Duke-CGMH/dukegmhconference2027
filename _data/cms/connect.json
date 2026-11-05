@@ -1,10 +1,8 @@
 {
   "eyebrow": "Get in touch",
   "title": "Connect",
-  "cgmh_image": "",
-  "cgmh_image_alt": "Duke Center for Global Mental Health",
-  "body": "<h2>Contact and Connect</h2><p>To learn more about the Center for Global Mental Health and its mission, please visit the <a href=\"https://sites.globalhealth.duke.edu/cgmh/\">CGMH website</a>.</p><p>For questions about the conference, please email <a href=\"mailto:dukegmh@duke.edu\">dukegmh@duke.edu</a>.</p><ul class=\"contact-list\"><li><span class=\"contact-name\">Ryan Parker</span>Clinical Research Coordinator, Duke CGMH · <a href=\"mailto:ryan.parker@duke.edu\">ryan.parker@duke.edu</a></li><li><span class=\"contact-name\">Preeti Shakya</span>Research Analyst, Duke CGMH · <a href=\"mailto:preeti.shakya@duke.edu\">preeti.shakya@duke.edu</a></li></ul><h3>Follow the Duke Center for Global Mental Health</h3><div class=\"social-links\"><a href=\"https://www.instagram.com/duke_gmh/\">Instagram: @duke_gmh</a><a href=\"https://www.linkedin.com/company/duke-center-for-global-mental-health\">LinkedIn: Duke Center for Global Mental Health</a></div>",
-  "title_background": "",
-  "secondary_image": "",
-  "secondary_image_alt": "Second photo for the Connect page"
+  "cgmh_image": "assets/images/staton2025-1024x683.jpg",
+  "cgmh_image_alt": "Dr. Catherine Staton at the 2025 Conference",
+  "secondary_image": "assets/images/ayangeakaa2025-1536x1021-2.jpg",
+  "body": "<h2>Contact and Connect</h2><p>To learn more about the Center for Global Mental Health and its mission, please visit the <a href=\"https://sites.globalhealth.duke.edu/cgmh/\">CGMH website</a>.</p><p>For questions about the conference, please email <a href=\"mailto:dukegmh@duke.edu\">dukegmh@duke.edu</a>.</p><ul><li><p>Ryan ParkerClinical Research Coordinator, Duke CGMH · <a href=\"mailto:ryan.parker@duke.edu\">ryan.parker@duke.edu</a></p></li><li><p>Preeti ShakyaResearch Analyst, Duke CGMH · <a href=\"mailto:preeti.shakya@duke.edu\">preeti.shakya@duke.edu</a></p></li></ul><h3>Follow the Duke Center for Global Mental Health</h3><p><a href=\"https://www.instagram.com/duke_gmh/\">Instagram: @duke_gmh</a><a href=\"https://www.linkedin.com/company/duke-center-for-global-mental-health\">LinkedIn: Duke Center for Global Mental Health</a></p>"
 }
