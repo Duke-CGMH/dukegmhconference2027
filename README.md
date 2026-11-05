@@ -28,6 +28,7 @@ In Pages CMS, open **Home page**:
 - Add up to 12 photos under **Homepage slideshow**. Photos rotate automatically every five seconds; visitors can select a slide using the dots. Provide a short alt description for accessibility and an optional caption.
 - Upload an MP4 or WebM under **Conference video**. It appears in a player beneath the slideshow in the right side of the home page hero. It is not autoplayed so visitors can choose when to play it.
 - Optionally upload a **Video poster image** to show before playback.
+- In the **Save the date** fields, upload a vertical MP4/WebM under **Vertical mental health video** and add its text under **Caption beneath vertical video**. It appears below the Save the Date details in the home page sidebar.
 - Add up to eight rows under **Flyer attachments**. Give each a title, optional short description, and PDF. Each appears as a download link in the homepage flyer section.
 
 Keep individual video files reasonably small so the homepage loads quickly.
@@ -37,4 +38,4 @@ Keep individual video files reasonably small so the homepage loads quickly.
 - **Page title backgrounds:** Home, Abstract Submission, Sponsors, Connect, and Past Conferences each have an optional title background image field. Upload/select a picture in the page editor; the site adds a dark overlay so white title text remains readable.
 - **Sponsors:** Add a row under **Sponsors** for each organization. Each row supports a name, optional logo, and optional website URL. Add the Duke & community PDF and corporate PDF in their matching fields; those documents are stored in `assets/sponsor-docs/`.
 - **Connect photos:** The first photo sits to the right of the contact text on desktop. The second photo appears below the text and first photo. On small screens, the content stacks vertically.
-- The top navigation uses separate equal-height boxes so each page label aligns consistently.
+- The top navigation uses individual boxes sized to their page labels.

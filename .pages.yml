@@ -143,6 +143,22 @@ content:
           format: html
           switcher: false
           media: false
+      - name: mental_health_video
+        label: Vertical mental health video (MP4 or WebM)
+        type: file
+        options:
+          media: videos
+          path: assets/videos
+          extensions: [mp4, webm]
+      - name: mental_health_video_poster
+        label: Vertical video poster image (optional)
+        type: image
+        options:
+          media: images
+          path: assets/images
+      - name: mental_health_video_caption
+        label: Caption beneath vertical video
+        type: text
       - name: flyer_heading
         label: Flyer section heading
         type: string
